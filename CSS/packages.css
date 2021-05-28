@@ -1,0 +1,98 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.wrraper {
+  background: #e5e5e5;
+}
+.plan-testing {
+  padding: 2em;
+  background: #fff;
+  width: 400em;
+}
+.define-plan-heading {
+  padding-top: 1em;
+}
+.plan-list {
+  display: grid;
+  grid-column-gap: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 13px 18px;
+}
+.plan-name {
+  height: 3.5rem;
+  background-color: #65708d;
+  color: #fff;
+  border-radius: 21px;
+  padding: 12px 17px;
+}
+.testing-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em 1em;
+}
+.testing-btn button {
+  height: 4rem;
+  background: #e3e3f1;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  padding: 11px 0px;
+}
+.testing-btn button a {
+  font-size: 1.2rem;
+  color: #65708d;
+  font-weight: 600;
+  /* padding: 2px 0px;*/
+}
+.save-cancel-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1em 0.5em;
+}
+.cancel {
+  background: #e3e3f1;
+
+  border: none;
+  border-radius: 5px;
+  padding: 9px 20px;
+  margin-right: 0.5em;
+}
+.cancel a {
+  font-weight: 600;
+  color: #65708d;
+  text-decoration: none;
+}
+.save {
+  background-color: #302e7a;
+
+  border: none;
+  border-radius: 5px;
+  padding: 9px 20px;
+  margin-right: 0.5em;
+}
+.save a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.calculated-column {
+  /*padding: 2em; */
+  padding: 2em 0.5em;
+  /* padding-left: 6em; */
+  /* flex-wrap: nowrap; */
+  width: 20em;
+}
+.calculated-column h6 {
+  font-weight: 600;
+  color: #a8a6ff;
+}
+.calculated-column h1 {
+  color: #5855d6;
+  background: #e3e3f1;
+  border-radius: 25px;
+  text-align: center;
+}
+.calculated-column p {
+  text-align: center;
+}

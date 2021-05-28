@@ -1,0 +1,13 @@
+.w-90{
+    width: 90% !important;
+  }
+.tester-items
+{
+    border: 1px solid black;
+    background-color: #CFD0E0;
+    border-radius: 25px;
+    align-items: center;
+    padding: 5px;
+    border-color: white;
+    margin-bottom: 3px !important;
+}

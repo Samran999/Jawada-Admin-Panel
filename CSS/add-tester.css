@@ -1,0 +1,65 @@
+.input-field {
+  background-color: #65708d !important;
+  border: none;
+  width: 85% !important;
+  height: 2rem;
+  color: black !important;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #eee;
+  border-radius: 50px !important;
+}
+.input-field:focus {
+  outline: none;
+}
+.input-field::placeholder {
+  color: white !important;
+  border: none !important;
+}
+.add-tester-btn-phn {
+  padding: 10px 20px !important;
+  width: 85% !important;
+  justify-content: space-between !important;
+  display: flex !important;
+  align-items: center !important;
+  background-color: #65708d !important;
+  border-radius: 25px !important;
+  border-color: white !important;
+}
+.add-tester-btn3 {
+  background-color: #f0eff5 !important;
+  color: black !important;
+  border-color: snow !important;
+}
+.add-tester-btn3:hover {
+  background-color: #302e7a !important;
+  color: white !important;
+}
+.add-tester-btn2 {
+  height: 4rem !important;
+  width: 45% !important;
+  border-color: white !important;
+  padding: 20px !important;
+  background-color: #e3e3f1 !important;
+  color: black !important;
+  border-radius: 25px !important;
+}
+.add-tester-btn2:hover {
+  background-color: #04a4a6 !important;
+  color: #ffffff !important
+    ;
+}
+.add-tester-btn {
+  padding: 10px 20px !important;
+  width: 85% !important;
+  justify-content: space-between !important;
+  display: flex !important;
+  align-items: center !important;
+  background-color: #65708d !important;
+  border-radius: 25px !important;
+}
